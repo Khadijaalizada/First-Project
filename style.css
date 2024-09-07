@@ -1,0 +1,638 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #AB7442;
+    --light: #F5F5F5;
+    --dark: #3535;
+    --silver: #555;
+}
+
+/* ===============header=================== */
+header .container {
+    width: 100%;
+}
+
+header .container .location {
+    display: flex;
+}
+
+header .container .location .loc {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 40px;
+}
+
+header .container .call {
+    display: flex;
+}
+
+header .container .address {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--light);
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+.header-top .conatainer .address i {
+    font-size: 16px;
+}
+
+.header-top .conatainer .address p {
+    font-size: 16px;
+}
+
+.header-top .container .address .location i {
+    padding-right: 7px;
+    color: var(--primary);
+}
+
+.header-top .container .address .location p {
+    color: var(--silver);
+}
+
+.header-top .container .address .call .social i {
+    margin: 0.5px;
+    background-color: #fff;
+    padding: 7px;
+    color: var(--primary);
+}
+
+.header-top .container .address .call .social {
+    margin-right: 40px;
+}
+
+.header-top .container .address .call i {
+    font-size: 16px;
+    color: var(--primary);
+    margin-top: 6px;
+}
+
+.header-top .container .address .call p {
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 6px;
+    margin-left: 5px;
+    color: var(--silver);
+}
+
+.header-bottom .container .whole {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom .container .whole .menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+.header-bottom .container .whole .logo {
+    padding: 5px 48px;
+    color: var(--primary);
+}
+
+.header-bottom .container .whole .menu button {
+    padding: 24px 48px;
+    border: none;
+    background-color: var(--primary);
+    color: #fff;
+    font-size: 16px;
+}
+
+.header-bottom .container .whole .menu button i {
+    padding-left: 7px;
+    font-size: 16px;
+}
+
+#color {
+    color: var(--primary);
+}
+
+/* =====================================banner2=============================== */
+.banner2 .container {
+    width: 100%;
+    text-align: center;
+}
+
+.banner2 .container .data .item {
+    display: flex;
+    width: 25%;
+    flex-grow: 1;
+}
+
+.banner2 .container .data {
+    display: flex;
+    margin: 4rem 3rem;
+}
+
+.banner2 .container .data .item .icon {
+    width: 50%;
+}
+
+.banner2 .container .data .item .icon i {
+    background-color: var(--light);
+    font: 32px;
+    color: var(--primary);
+    padding: 15px;
+}
+
+.banner2 .container .data .item .number h1 {
+    font-size: 81px;
+    color: var(--light);
+}
+
+/* =====================================main=============================== */
+.banner {
+    background-image: url(image/carousel-1.jpg);
+    width: 100%;
+    height: 762px;
+}
+
+.banner .blur {
+    width: 100%;
+    height: 762px;
+    background-color: rgba(53, 53, 53, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .content {
+    text-align: center;
+    color: #fff;
+}
+
+.banner .content h5 {
+    font-size: 30px;
+    margin: 40px 0;
+}
+
+.banner .content h1 {
+    width: 763px;
+    font-size: 64px;
+    margin: 42px;
+}
+
+.banner .content p {
+    font-size: 24px;
+    width: 763px;
+}
+
+.banner button {
+    padding: 16px 48px;
+    margin: 20px 10px;
+    background-color: var(--primary);
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.banner .content button:nth-of-type(2) {
+    background-color: #fff;
+    color: black;
+}
+
+/* ===================================about us================================= */
+.about-info {
+    display: flex;
+}
+
+.container1 .about-info .desc {
+    width: 50%;
+    padding: 48px 116px 48px 48px;
+    background-color: var(--light);
+}
+
+.container1 .about-info .desc h1 {
+    font-size: 46px;
+}
+
+.container1 .about-info .desc p {
+    font-size: 20px;
+    padding-top: 20px;
+    color: var(--silver);
+}
+
+.container1 .about-info .photo {
+    width: 50%;
+}
+
+.about-section .container1 .photo img {
+    height: 400px;
+}
+
+.about-section .container1 .about-info .icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 24px 0 0;
+}
+
+.about-section .container1 .about-info .icons .left i {
+    font-size: 32px;
+    background-color: #fff;
+    padding: 8px;
+    color: var(--primary);
+    margin-right: 15px;
+}
+
+.about-section .container1 .about-info .icons .right i {
+    font-size: 32px;
+    background-color: #fff;
+    padding: 13px;
+    color: var(--primary);
+    margin-right: 15px;
+}
+
+.about-section .container1 .about-info .icons .right {
+    display: flex;
+}
+
+.about-section .container1 .about-info .icons .left {
+    display: flex;
+    padding-top: 0;
+}
+
+.about-section .container1 .about-info .icons h2 {
+    color: var(--primary);
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.about-section .container1 .about-info .icons p {
+    color: var(--silver);
+    font-size: 17px;
+}
+
+.about-section .container1 .about-info button {
+    padding: 16px 48px;
+    background-color: var(--primary);
+    color: #fff;
+    border: 0;
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+/* =========================================services============================== */
+.container {
+    margin: auto;
+    width: 90%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service .items {
+    width: 31.33%;
+    margin: 12px;
+}
+
+.container .service .total {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services .service .title {
+    text-align: center;
+    width: 100%;
+}
+
+.services .service .title h1 {
+    padding: 40px;
+    padding-top: 70px;
+    font-size: 54px;
+}
+
+.services .container .service .text {
+    border: solid 5px var(--light);
+    border-top: 0;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.services .container .service .text h4 {
+    font-size: 26px;
+}
+
+.services .container .service .text p {
+    padding: 20px;
+    font-size: 19px;
+    color: var(--silver);
+}
+
+.services .container .service .text a {
+    font-size: 19px;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.services .container .service .text i {
+    padding: 5px;
+    padding-bottom: 0;
+}
+
+/* =====================================Choose section============================= */
+.choose-info {
+    display: flex;
+}
+
+.container2 .choose-info .desc {
+    width: 50%;
+    padding: 48px 116px 48px 48px;
+    background-color: var(--light);
+}
+
+.container2 .choose-info .desc h1 {
+    font-size: 46px;
+}
+
+.container2 .choose-info .desc p {
+    font-size: 20px;
+    padding-top: 20px;
+    color: var(--silver);
+}
+
+.container2 .choose-info .photo {
+    width: 50%;
+}
+
+.choose-section .container2 .photo img {
+    height: 400px;
+}
+
+.choose-section .container2 .choose-info .first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose-section .container2 .choose-info .second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose-section .container2 .choose-info i {
+    color: var(--primary);
+}
+
+/* ===============================our project============================= */
+.container {
+    margin: auto;
+    width: 90%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project .items {
+    width: 31.33%;
+    margin: 12px;
+}
+
+.container .project .total {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects .project .title {
+    text-align: center;
+    width: 100%;
+}
+
+.projects .project .title h1 {
+    padding: 40px;
+    padding-top: 70px;
+    font-size: 54px;
+}
+
+.projects .container .project .text {
+    border: solid 5px var(--light);
+    border-top: 0;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.projects .container .project .text h4 {
+    font-size: 26px;
+}
+
+.projects .container .project .text p {
+    padding: 20px;
+    font-size: 19px;
+    color: var(--silver);
+}
+
+.projects .container .project .text a {
+    font-size: 19px;
+    color: var(--primary);
+}
+
+.projects .container .project .text i {
+    padding: 5px;
+    padding-bottom: 0;
+}
+
+.projects .container .project .text p {
+    color: var(--primary);
+}
+
+.projects .container .project .text {
+    padding: 0;
+    text-align: left;
+}
+
+.projects .container .project .text p {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.projects .container .project .text h3 {
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+/* =======================================Quote=========================== */
+.quote-info {
+    display: flex;
+}
+
+.container3 .quote-info .desc {
+    width: 50%;
+    padding: 48px 116px 48px 48px;
+    background-color: var(--light);
+}
+
+.container3 .quote-info .desc h1 {
+    font-size: 46px;
+}
+
+.container3 .quote-info .desc p {
+    font-size: 20px;
+    padding-top: 20px;
+    color: var(--silver);
+}
+
+.container3 .quote-info .photo {
+    width: 50%;
+}
+
+.quote-section .container3 .photo img {
+    height: 600px;
+}
+
+/* ======================================Team Members============================= */
+.members .container .member {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.members .container .member .person img {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.members .container .member .person {
+    margin: 10px;
+}
+
+.members .container .title {
+    text-align: center;
+}
+
+.members .container .title h1 {
+    padding: 40px;
+    padding-top: 70px;
+    font-size: 54px;
+}
+
+.members .member .name {
+    border: solid 5px var(--light);
+    border-top: 0;
+    text-align: center;
+    padding: 24px;
+}
+
+.members .member .name h3 {
+    padding-bottom: 5px;
+}
+
+/* ================================Testimonial========================== */
+.test .container .picture {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border: solid 8px var(--light);
+}
+
+.test .container .title2 {
+    text-align: center;
+    padding: 40px;
+    padding-top: 70px;
+    font-size: 25px;
+}
+
+.test .container .intro {
+    width: 579px;
+    border: solid 5px var(--light);
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.test .container .intro p {
+    padding-bottom: 15px;
+}
+
+.test .container .intro h3 {
+    padding-bottom: 5px;
+}
+
+/* ===============================================Footer========================= */
+.footer .container .footer-det {
+    display: flex;
+    justify-content: space-around;
+    background-color: #303030;
+}
+
+.footer .container {
+    width: 100%;
+}
+
+.footer .container .footer-det p {
+    color: #fff;
+}
+
+.footer .container .footer-det h3 {
+    color: #fff;
+}
+
+.footer .container .footer-det i {
+    color: #fff;
+}
+
+.footer .container .footer-det .top {
+    color: #fff;
+}
+
+.footer .container .footer-det .details .flex {
+    display: flex;
+    padding: 7px 7px 7px 0;
+}
+
+.footer .container .footer-det .services .flex {
+    display: flex;
+    padding: 7px 7px 7px 0;
+}
+
+.footer .container .footer-det .details2 .flex {
+    display: flex;
+    padding: 7px 7px 7px 0;
+}
+
+.footer .container .footer-det .flex i {
+    padding-right: 10px;
+}
+
+.footer .container .footer-det .top {
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+.footer .container .footer-det {
+    padding-bottom: 40px;
+}
+
+.footer .container .end {
+    display: flex;
+    justify-content: space-between;
+}
